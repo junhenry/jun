@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>contact</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    
+</head>
+<body>
+    <header id="header">
+        <div class="inner">
+           <div class="logo">
+               <a href="./home.html">SEAGM</a>
+           </div>
+           <div class="menu"></div>
+           <div class="nav">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./platform.html">Platform</a></li>
+                <li><a href="./seagm-ers.html">SEAGMers</a></li>
+                <li><a href="./about.html">Media about us</a></li>
+                <li class="selected"><a href="./contact.html">Contact</a></li>
+            </ul>
+           </div>
+        </div>
+    </header>
+    <div id="contact-block-1">
+        <div class="inner">
+            <article>
+                <h2>CONTACT US</h2>
+                <p>Thanks for your interest in seagm! want to learn more about seagm 
+                    contact us, Submit this form and our sales representative will contact
+                     you soon</p>
+                <div class="art"></div>
+            </article>
+            <form action="/contact/send-email" method="post" class="form">
+                <div class="message"><i class="iconfont"></i><span class="prompt"></span></div>
+                <input type="text" placeholder="First Name" class="firstName">
+                <input type="text" placeholder="Last Name" class="lastName">  
+                <input type="email" placeholder="Business Email" class="email">
+                <input type="text" placeholder="Company Name" class="companyName">
+                <textarea placeholder="what con we help you with?" rows="2" class="helpText"></textarea>
+                <div id="wrapper" style="position: relative;">
+                    <div id="drag">
+                        <div class="drag_bg"></div>
+                        <div class="drag_text slidetounlock" onselectstart="return false;" unselectable="on">Please slide to verify</div>
+                        <div class="handler handler_bg"></div>
+                    </div>
+                </div>
+                 <button class="submit">Submit</button>
+             </form>
+             <div class="success-pop-ups">
+                <div class="pop-ups">
+                    <div class="pop-ups-wrap">
+                        <h3>THANK YOU</h3>
+                        <p>Message sent. We will reply you soon.</p>
+                        <a href="./home.html">ok</a>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src="../js/menu.js"></script>
+    <script src="https://lib.baomitu.com/jquery/3.5.1/jquery.js"></script>
+    <script src="../js/slider.js"></script>
+    <script>$('#drag').drag();</script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>

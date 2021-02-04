@@ -1,0 +1,28 @@
+#contact-block-1 .inner{height: 100vh;}
+#contact-block-1 h2{font-size: 2.5em;color: var(--text-black);}
+#contact-block-1 p{color:var(--text-gray);margin: 1.8em 0 1.4em;}
+#contact-block-1 article{flex: 1;padding-right: 3em;}
+#contact-block-1 article .art{width: 35em;height: 27em; background: url(../image/home-block-3-products.png) no-repeat;}
+#contact-block-1 form{width: 32em;height: 40em;background-color: white;box-shadow: 0 3px 10px #e8e8e8;padding:1.25em 3.75em;box-sizing: border-box;}
+#contact-block-1 form .message{opacity: 0; margin-bottom: 1em;height: 3em;; line-height: 3em;padding-left: 2em;}
+#contact-block-1 form .message.error{opacity: 1;color: red;background:#ffe7e8;}
+#contact-block-1 form .message.error i::after{font-family:'iconfont'; content: '\e669';font-size: 1em;margin-right: .5em;}
+#contact-block-1 form input,#contact-block-1 form textarea{display: block;width: 100%;padding:1.25em 2em;margin-bottom: 1.5em;box-sizing: border-box;border: 1px solid #E0E0E0;}
+#contact-block-1 form button{background-color: var(--orange);width: 100%;padding: 16px;border: 0;color: white;font-size: 1em;font-weight: 500;margin-top: 2em;cursor: pointer;}
+#contact-block-1 .success-pop-ups{display: none;}
+#contact-block-1 .pop-ups{ position: fixed;left: 0;right: 0;top: 0;bottom: 0;background: rgba(0, 0, 0, .3);z-index: 1000;display: flex;justify-content: center;align-items: center;}
+#contact-block-1 .pop-ups-wrap{width: 25em;height: 15em;background: white;text-align: center;padding: 2em 3em;box-sizing: border-box;}
+#contact-block-1 .pop-ups-wrap p{margin: 1.5em 0 2em;}
+#contact-block-1 .pop-ups-wrap a{display: block; background: var(--orange);padding: .5em; margin: 0 auto;color: white;font-size: 1.25em;}
+/* 滑动验证 */
+#drag{position: relative;background-color: #e8e8e8;width: 100%;height: 34px;line-height: 34px;text-align: center;}
+#drag .handler{position: absolute;top: 0px;left: 0px;width: 40px;height: 32px;border: 1px solid #ccc;cursor: move;}
+.handler_bg{background: #fff url("../image/slider.svg") no-repeat center;}
+.handler_ok_bg{background: #fff url("../image/complet.svg") no-repeat center;}
+#drag .drag_bg{background-color: #7ac23c;height: 34px;width: 0px;}
+#drag .drag_text{position: absolute;top: 0px;width: 100%;color:var(--text-gray);text-align: center;-moz-user-select: none;-webkit-user-select: none;user-select: none;-o-user-select:none;-ms-user-select:none;font-size: 12px; }
+
+
+
+
+
