@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox='0,0 1000,100' width="1000" height="100">
-<g transform="skewX(-45)translate(50,0)">
-	<rect height="100" fill="#00ff00" width="120" x="-50"/>
-	<rect height="100" fill="#6ab912" width="80" x="70"/>
-	<rect height="100" fill="#F1AD4D" width="230" x="150"/>
-	<rect height="100" fill="#b95712" width="70" x="380"/>
-	<rect height="100" fill="#b91212" width="600" x="450"/>
-</g>
-</svg>

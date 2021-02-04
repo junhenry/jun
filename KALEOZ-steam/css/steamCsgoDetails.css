@@ -1,9 +1,0 @@
-
-#content .products-wrap-list ul li:hover .title-img .img img{animation: productImg .5s;}
-@keyframes productImg{
-    25%{transform: rotate(-10deg);}
-    50%{transform: rotate(10deg);}
-    75%{transform: rotate(-10deg);}
-    100%{transform: rotate(10deg);}
-}
-
