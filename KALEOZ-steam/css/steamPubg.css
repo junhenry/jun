@@ -1,0 +1,28 @@
+/* 筛选 */
+#content .inner{flex-wrap: wrap;}
+#content .breadcrumb{width: 100%;}
+#content .breadcrumb ul{display: flex;height: 2em;}
+#content .breadcrumb li a{opacity: .7;line-height: 2em;}
+#content .breadcrumb li a:hover{color: #fed631;opacity: 1;}
+#content .breadcrumb li:last-child::before{content: '/';margin: 0 .5em;}
+#content .filter-wrap .filter-menu{border-bottom: 1px solid rgb(38, 41, 49,.8);}
+#content .filter-wrap{width: 100%;background: rgb(15, 20, 30,.8);}
+#content .filter-wrap .filter-menu-list{display: flex;}
+#content .filter-wrap .filter-menu-list .nav-menu{position: relative; flex: 1;box-sizing: border-box;}
+#content .filter-wrap .filter-menu-list .title{text-align: center;padding: 1.5em 1em 0;}
+#content .filter-wrap .filter-menu-list .title:hover{background: rgb(42, 73, 116,.3);box-shadow: inset 0 0 0 .1em #4075c0;}
+#content .filter-wrap .filter-menu-list .title span{display: block;margin-bottom: .5em;}
+
+#content .filter-wrap .filter-menu-list .title::before{content: '';display: block;width:3em;height: 3em; background: url(../images/steam/pubg.png) no-repeat;background-position: 0 calc(var(--y) * 3em);background-size: 3em auto;margin: 0 auto;}
+#content .filter-wrap .filter-menu-list .title::after{content: '';border: .25em solid;border-top-color:white;border-right-color: transparent;border-left-color: transparent;border-bottom-color: transparent;opacity: .6;}
+#content .filter-wrap .filter-menu-list .nav-menu.hideDown .title::after{opacity: 0;}
+#content .filter-wrap .filter-menu-list ul{position: absolute;left: 0; visibility: hidden; display: flex;flex-wrap: wrap;padding: 0;width: calc(var(--width)*var(--num)*1px);background: var(--col);padding: 1em 0;box-sizing: border-box;z-index: 10;}
+#content .filter-wrap .filter-menu-list ul li{width: calc(var(--width)*1px);box-sizing: border-box;text-align: center;padding: .5em 0;cursor: pointer;border-radius: .25em;}
+#content .filter-wrap .filter-menu-list .nav-menu:last-child ul,#content .filter-wrap .filter-menu-list .nav-menu:nth-last-child(2) ul,#content .filter-wrap .filter-menu-list .nav-menu:nth-last-child(3) ul{right: 0;left: auto;}
+#content .filter-wrap .filter-menu-list ul li.selected{border: 1px solid #4075c0;background:rgb(3, 32, 60,.8);}
+#content .filter-wrap .filter-menu-list ul li:hover{background: #1a1a1a;box-shadow: inset rgba(255, 255, 255,.1) 0 0 0 1px}
+#content .filter-wrap .filter-menu-list .nav-menu.on{background: var(--col);box-shadow: inset 0 0 0 .1em #4075c0;}
+#content .filter-wrap .filter-menu-list .nav-menu.on ul{visibility: initial;}
+
+#content .products .products-wrap ul li{height: 28.5em;}
+#content .products .products-wrap ul li img{background: url(../images/placeholder/item_cover_steam_pubg.svg) no-repeat center/cover;}

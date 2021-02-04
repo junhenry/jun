@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>home</title>
+    <link rel="stylesheet" href="../css/pruduct.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <header id="header">
+        <div class="top-nav">
+            <div class="inner">
+                <div class="top-menu">
+                    <ul>
+                        <li><a href="#">KALEOZ Store<i class="iconfont">&#xe61a;</i></a></li>
+                        <li><a href="#">KALEOZ Steam Market</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Guide</a></li>
+                        <li><a href="#">How to Buy</a></li>
+                        <li><a href="#">How to sell</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div> 
+                <div class="top-language">
+                    <div class="language">EN / MYR</div>
+                    <div class="language-set-up">
+                        <div class="title">
+                            <h6>Select your Country / Region</h6>
+                            <i class="iconfont language-close">&#xe60b;</i>
+                        </div>
+                        <form action="#" class="form">
+                            <select name="country" class="country-list">
+                                <option value="AG" data-language="en" data-currency="USD">Antigua and Barbuda</option>
+                                <option value="AN" data-language="en" data-currency="USD">Netherlands Antilles</option>
+                                <option value="CC" data-language="en" data-currency="USD">Cocos (Keeling) Islands</option>
+                                <option value="CD" data-language="en" data-currency="USD">Democratic Republic Congo</option>
+                                <option value="CF" data-language="en" data-currency="USD">Central African Republic</option>
+                                <option value="AG" data-language="en" data-currency="USD">Antigua and Barbuda</option>
+                                <option value="CN" data-language="zh" data-currency="CNY" selected="selected">China</option>
+                            </select>
+                            <select name="language" class="language-list">
+                                <option value="en">English</option>
+                                <option value="zh" selected="selected">简体中文</option>
+                                <option value="ms">Bahasa Malaysia</option>
+                                <option value="th">ภาษาไทย</option>
+                                <option value="id">Bahasa Indonesia</option>
+                                <option value="vi">Việt</option>
+                            </select>
+                            <select name="currency" class="currency-list" disabled>
+                                <option value="CNY" selected="selected">Chinese Yuan Renminbi (¥)</option>
+                                <option value="NTD">Taiwan New Dollar (NT$)</option>
+                                <option value="USD">US Dollar (US$)</option>
+                                <option value="IDR">Indonesia Rupiah (Rp)</option>
+                                <option value="THB">Thailand Baht (฿)</option>
+                                <option value="MYR">Malaysia Ringgit (RM)</option>
+                                <option value="CAD">Canadian Dollar (C$)</option>
+                                <option value="JPY">Japanese Yen (¥)</option>
+                                <option value="SGD">Singapore Dollar (S$)</option>
+                                <option value="PHP">Philippines Peso (₱)</option>
+                                <option value="VND">Vietnamese Dong (₫)</option>
+                                <option value="NZD">New Zealand Dollar</option>
+                                <option value="EUR">Euro (€)</option>
+                                <option value="HKD">Hong Kong Dollar (HK$)</option>
+                                <option value="BRL">Brazil Reais (R$)</option>
+                                <option value="AUD">Australian Dollar (A$)</option>
+                                <option value="RUB">Russian Ruble (руб)</option>
+                                <option value="GBP">British Pound (£)</option>
+                                <option value="TRY">New Turkish Lira (TL)</option>
+                                <option value="PLN">Polish Zloty (zł)</option>
+                                <option value="NOK">Norwegian Krone (kr)</option>
+                                <option value="DKK">Danish Krone (kr)</option>
+                                <option value="MXN">Mexican Peso</option>
+                                <option value="CHF">Swiss Franc</option>
+                                <option value="KRW">South Korean Won (KRW)</option>
+                            </select>
+                            <input type="submit" value="Save Settings">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="inner">
+                <div class="main-nav-game">
+                    <div class="logo">
+                        <a href="./home.html">KALEOZ</a>
+                    </div>
+                    <!-- 游戏筛选 -->
+                    <div class="game-switch">
+                        <a href="#" class="game-list-ctrl">
+                            <div class="game-name">
+                                <img class="game-name-img" src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/icon/csgo.jpg?x-oss-process=image/format,webp/resize,w_60">
+                                <span>CSGO</span>
+                            </div>
+                        </a>
+                        <div class="game-filter-wrap">
+                            <div class="game-filter-list">
+                                <div class="title">
+                                    <h6>Select Game</h6>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="./steamCsgo.html">
+                                            <div class="img">
+                                                <img src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/cover/csgo.jpg?x-oss-process=image/resize,w_400/format,webp" alt="">
+                                            </div>
+                                            <p class="game-name">Counter-Strike: Global Offensive</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./steamDota2.html">
+                                            <div class="img">
+                                                <img src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/cover/dota2.jpg?x-oss-process=image/resize,w_400/format,webp" alt="">
+                                            </div>
+                                            <p class="game-name">DOTA 2</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./steamPubg.html">
+                                            <div class="img">
+                                                <img src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/cover/pubg.jpg?x-oss-process=image/resize,w_400/format,webp" alt="">
+                                            </div>
+                                            <p class="game-name">PlayerUnknown’s Battlegrounds</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./steamZ1.html">
+                                            <div class="img">
+                                                <img src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/cover/z1.jpg?x-oss-process=image/resize,w_400/format,webp" alt="">
+                                            </div>
+                                            <p class="game-name">Z1 Battle Royale</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./steamZ1.html">
+                                            <div class="img">
+                                                <img src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/cover/z1.jpg?x-oss-process=image/resize,w_400/format,webp" alt="">
+                                            </div>
+                                            <p class="game-name">Z1 Battle Royale</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-menu">
+                    <ul>
+                        <li><a href="#">My Inventory</a></li>
+                        <li><a href="#">My Orders</a></li>
+                        <li class="user">
+                            <a href="#" class="user-name">My Dexterr</a>
+                            <div class="user-menu-wrap">
+                                <div class="user-menu-list">
+                                    <dl>
+                                        <dt>User Control Panel</dt>
+                                        <dd><a href="ucp-home.html">Control Panel</a></dd>
+                                        <dd><a href="ucp-profile.html">My Profile</a></dd>
+                                        <dd><a href="ucp-buyer-order-list.html">My Orders</a></dd>
+                                        <dd><a href="ucp-account.html">My Account</a></dd>
+                                        <dd><a href="ucp-notification.html">Notifications</a></dd>
+                                        <dd><a href="ucp-message.html">Support Message</a></dd>
+                                        <dd><a href="#">Sign Out</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>User Control Panel</dt>
+                                        <dd><a href="ucp-home.html">Control Panel</a></dd>
+                                        <dd><a href="ucp-profile.html">My Profile</a></dd>
+                                        <dd><a href="ucp-buyer-order-list.html">My Orders</a></dd>
+                                        <dd><a href="ucp-account.html">My Account</a></dd>
+                                        <dd><a href="ucp-notification.html">Notifications</a></dd>
+                                        <dd><a href="ucp-message.html">Support Message</a></dd>
+                                        <dd><a href="#">Sign Out</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>User Control Panel</dt>
+                                        <dd><a href="ucp-home.html">Control Panel</a></dd>
+                                        <dd><a href="ucp-profile.html">My Profile</a></dd>
+                                        <dd><a href="ucp-buyer-order-list.html">My Orders</a></dd>
+                                        <dd><a href="ucp-account.html">My Account</a></dd>
+                                        <dd><a href="ucp-notification.html">Notifications</a></dd>
+                                        <dd><a href="ucp-message.html">Support Message</a></dd>
+                                        <dd><a href="#">Sign Out</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 广告 -->
+    <section id="home-advertising">
+        <div class="inner">
+            <div class="ad">
+                <ul class="ad-img">
+                    <li class="show"><a href="#"><img src="../images/advertising/seagm-media-ad1.jpeg"></a></li>
+                    <li><a href="#"><img src="../images/advertising/seagm-media-ad2.jpeg"></a></li>
+                    <li><a href="#"><img src="../images/advertising/seagm-media-ad3.jpeg"></a></li>
+                    <li><a href="#"><img src="../images/advertising/seagm-media-ad4.jpeg"></a></li>
+                </ul>
+                <div class="ad-btn">
+                    <button class="prev"><i class="iconfont">&#xe63b;</i></button>
+                    <button class="next"><i class="iconfont">&#xe63b;</i></button>
+                </div>
+            </div>
+            <article>
+                <h2>SKINS FOR CHAMPIONS, SKINS FOR WARDS </h2>
+                <p>Top up your Google Play Balance with the 
+                    Google Play Gift card and start growing 
+                    your collection! Buy game booster packs, 
+                    rent a movie or read an ebook - all from 
+                    the convenience of your smartphone. 
+                    SEAGM offers cards for up to 15 regions…</p>
+                <a href="#" class="btn">Learn more</a>
+            </article>
+        </div>
+    </section>
+    <!-- 产品列表  -->
+    <section id="home-game-list">
+        <div class="inner">
+            <article>
+                <h2>KALEOZ GAME STORE</h2>
+                <a href="#" class="btn">More</a>
+            </article>
+            <div class="game-list">
+                <ul>
+                    <li>
+                        <a href="./steamCsgo.html">
+                            <div class="img">
+                                <img src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/cover/csgo.jpg?x-oss-process=image/resize,w_400/format,webp">
+                            </div>
+                            <h4>Counter-Strike: Global Offensive</h4>
+                            <div class="label">
+                                <span class="offer">56,000</span>
+                                <span class="seller">999</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./steamDota2.html">
+                            <div class="img">
+                                <img src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/cover/dota2.jpg?x-oss-process=image/resize,w_400/format,webp">
+                            </div>
+                            <h4>DOTA2</h4>
+                            <div class="label">
+                                <span class="offer">26,000</span>
+                                <span class="seller">600</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./steamPubg.html">
+                            <div class="img">
+                                <img src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/cover/pubg.jpg?x-oss-process=image/resize,w_400/format,webp">
+                            </div>
+                            <h4>PlayerUnknown’s Battlegrounds</h4>
+                            <div class="label">
+                                <span class="offer">38,000</span>
+                                <span class="seller">400</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./steamZ1.html">
+                            <div class="img">
+                                <img src="https://kaleoz-media.oss-ap-southeast-1.aliyuncs.com/steam/game/cover/z1.jpg?x-oss-process=image/resize,w_400/format,webp">
+                            </div>
+                            <h4>Z1 Battle Royale</h4>
+                            <div class="label">
+                                <span class="offer">72,000</span>
+                                <span class="seller">500</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 底部footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="footer-info">
+                <a href="./home.html" class="logo">KALEOZ</a>
+                <p>Disclaimer: Registered names and trademarks are the copyright and property of their respective owners. Use of this Web site constitutes acceptance of the <strong><a href="#">Terms of Use</a></strong> and <strong><a href="#">Privacy Policy</a></strong>.</p>
+            </div>
+            <div class="footer-menu">
+                <h6>Site Navigation</h6>
+                <ul>
+                    <li><a href="#">KALEOZ Store</a></li>
+                    <li><a href="#">About KALEOZ</a></li>
+                    <li><a href="#">About Steam Market</a></li>
+                    <li><a href="#">Steam Game Category</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <h6>User Guide</h6>
+                <ul>
+                    <li><a href="#">Steam Account Authorization</a></li>
+                    <li><a href="#">How to Buy</a></li>
+                    <li><a href="#">How to Sell</a></li>
+                    <li><a href="#">Order & Payment</a></li>
+                    <li><a href="#">Fees & Withdrawl</a></li>
+                </ul>
+            </div>
+            <div class="footer-wrap">
+                <h6>Terms of Use</h6>
+                <div class="sns-list">
+                   <ul>
+                       <li><a href="https://www.facebook.com/kaleozglobal"><i class="iconfont">&#xe616;</i></a></li>
+                       <li><a href="https://www.youtube.com/channel/UCS6AQKGucU3-KjeAdiiCI-w"><i class="iconfont">&#xe6c9;</i></a></li>
+                       <li><a href="https://www.instagram.com/kaleozglobal/"><i class="iconfont">&#xe637;</i></a></li>
+                   </ul>
+                </div>
+                <div class="payments">
+                    <h6>Payment supported</h6>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/header.js"></script>
+    <script src="../js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+/* 产品列表 */
+#content .products-wrap-list ul li{padding: .1em;}
+#content .products-wrap-list ul li .title-img .img{width: 12.5em;height: 8.3em;margin-right: 2em;padding: 0;}
+#content .products-wrap-list ul li .title-img .img img{width: 100%;}
+#content .products-wrap-list ul li .title h4{font-weight: 700;font-size: 1.25em;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;course:hand;}
+#content .products-wrap-list ul li .title .attributes::after{content: ''; display: block;width: 15em;height:.5em;background: url(../images/placeholder/item_WearCategory_steam_csgo.svg) no-repeat center/100%;border-radius: .5em;margin: 1em 0;}
+#content .products-wrap-list ul li .title .user-img img{width: 2.5em;}
+#content .products-wrap-list .price{flex: auto;text-align: right;margin: 0 6em;}
+#content .products-wrap-list .price span{font-size: 1.5em;color: #ffa502;font-weight: 700;}
+#content .products-wrap-list .grade{margin: 0 4em;}
+#content .products-wrap-list .grade span{font-weight: 700;}
+#content .products-wrap-list .grade::after{content: '';display: block;background: url(../images/user-level-new.svg) no-repeat;height: 1em;margin: 0 auto;background-size: auto 500%;background-position: 0 -2em;margin-top: .5em;}
+
+/* 产品购买详情 */
+#content .products-details .img{height: 16em; padding:0;}
+#content .products-details article{position: relative;}
+
+
+

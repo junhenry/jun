@@ -1,0 +1,78 @@
+<svg id="USER-LEVEL-ICONS" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" viewBox="0,0 240,240" width="240" height="240">
+<def id="icon-wrp">
+	<g id="icon-heart">
+		<!-- <path d="M24,42.35l-2.9-2.64C10.8,30.37,4,24.21,4,16.65c0-6.16,4.84-11,11-11c3.48,0,6.82,1.62,9,4.18c2.18-2.56,5.52-4.18,9-4.18c6.16,0,11,4.84,11,11c0,7.56-6.8,13.72-17.1,23.08L24,42.35z"/>
+		<path fill="#000" fill-opacity=".1" d="M24,42.35l2.9-2.64C37.2,30.37,44,24.21,44,16.65c0-6.16-4.84-11-11-11c-3.48,0-6.82,1.62-9,4.18V42.35z"/> -->
+		<path d="M41,8.8c-4.7-4.7-12.3-4.7-17,0c-4.7-4.7-12.3-4.7-17,0c-4.7,4.7-4.7,12.3,0,17l17,17l17-17C45.7,21.1,45.7,13.5,41,8.8z"/>
+		<path fill="#000" fill-opacity=".1" d="M24,42.7l17-17c4.7-4.7,4.7-12.3,0-17c-4.7-4.7-12.3-4.7-17,0L24,42.7L24,42.7z"/>
+
+	</g>
+	<g id="icon-diamond">
+		<polygon points="24,4 37,6 46,19 24,45 2,19 11,6"/>
+		<g fill="#fff">
+			<polygon points="24,4 37,6 46,19 2,19 11,6" fill-opacity="0.25"/>
+			<polygon points="24,4 37,6 36,19 12,19 11,6" fill-opacity="0.1"/>
+			<polygon points="24,4 36,19 12,19" fill-opacity="0.5"/>
+			<polygon points="24,45 36,19 12,19" fill-opacity="0.25"/>
+		</g>
+	</g>
+	<g id="icon-crown">
+		<polygon fill="#DD2E2B" points="24,38 41,38 42,30 24,30"/>
+		<polygon fill="#F15857" points="24,38 7,38 6,30 24,30"/>
+		<path fill="#FACB1A" d="M31.953,13.225C29.67,13.893,28,16,28,18.5c0,3.038,2.463,5.5,5.5,5.5s5.5-2.462,5.5-5.5c0-1.786-0.854-3.367-2.173-4.372C41.688,13.7,46,10,46,10l-3,17H24V2C24,2,26.548,10.41,31.953,13.225z"/>
+		<path fill="#FAE157" d="M16.047,13.225C18.331,13.893,20,16,20,18.5c0,3.038-2.463,5.5-5.5,5.5S9,21.538,9,18.5c0-1.786,0.854-3.367,2.173-4.372C6.313,13.7,2,10,2,10l3,17h19V2C24,2,21.452,10.41,16.047,13.225z"/>
+		<polygon fill="#F59493" points="24,17 21,13 24,9"/>
+		<polygon fill="#F15857" points="24,17 27,13 24,9"/>
+		<rect fill="#F9EC99" x="4" y="27" width="40" height="3" rx=".5" ry=".5"/>
+		<rect fill="#FBE157" x="6" y="38" width="36" height="4" rx=".5" ry=".5"/>
+		<g fill="#F9EC99">
+			<circle cx="24" cy="34" r="1.5"/>
+			<circle cx="14" cy="34" r="1.5"/>
+			<circle cx="34" cy="34" r="1.5"/>
+		</g>
+	</g>
+	<g id="icon-star" transform="translate(24 24)scale(1.15)translate(-24 -27)">
+		<path d="M24,35.54L36.36,43l-3.28-14.06L44,19.48l-14.38-1.22L24,5l-5.62,13.26L4,19.48l10.92,9.46L11.64,43L24,35.54z"/>
+	</g>
+</def>
+<linearGradient id="orange_red" x1="0%" y1="0%" x2="100%" y2="0%">
+	<stop offset="0%" stop-color="gold"/>
+	<stop offset="100%" stop-color="#facb1b"/>
+</linearGradient>
+
+<g fill="red">
+	<use xlink:href="#icon-heart" x="0"/>
+	<use xlink:href="#icon-heart" x="48"/>
+	<use xlink:href="#icon-heart" x="96"/>
+	<use xlink:href="#icon-heart" x="144"/>
+	<use xlink:href="#icon-heart" x="192"/>
+</g>
+<g fill="dodgerblue" transform="translate(0 48)">
+	<use xlink:href="#icon-diamond" x="0"/>
+	<use xlink:href="#icon-diamond" x="48"/>
+	<use xlink:href="#icon-diamond" x="96"/>
+	<use xlink:href="#icon-diamond" x="144"/>
+	<use xlink:href="#icon-diamond" x="192"/>
+</g>
+<g transform="translate(0 96)">
+	<use xlink:href="#icon-crown" x="0"/>
+	<use xlink:href="#icon-crown" x="48"/>
+	<use xlink:href="#icon-crown" x="96"/>
+	<use xlink:href="#icon-crown" x="144"/>
+	<use xlink:href="#icon-crown" x="192"/>
+</g>
+<g transform="translate(0 144)" fill="url(#orange_red)">
+	<use xlink:href="#icon-star" x="0"/>
+	<use xlink:href="#icon-star" x="48"/>
+	<use xlink:href="#icon-star" x="96"/>
+	<use xlink:href="#icon-star" x="144"/>
+	<use xlink:href="#icon-star" x="192"/>
+</g>
+<g transform="translate(0 192)" fill="rgba(0,0,0,.1)">
+	<use xlink:href="#icon-star" x="0"/>
+	<use xlink:href="#icon-star" x="48"/>
+	<use xlink:href="#icon-star" x="96"/>
+	<use xlink:href="#icon-star" x="144"/>
+	<use xlink:href="#icon-star" x="192"/>
+</g>
+</svg>

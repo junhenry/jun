@@ -1,0 +1,33 @@
+
+/* 广告 */
+#home-advertising {margin: 2em 0 3em;}
+#home-advertising .ad{position: relative;}
+#home-advertising .ad ul{display: flex; width: 72em;height: 24em;overflow: hidden;}
+#home-advertising .ad ul li{display: none;width: 100%;height: 100%;}
+#home-advertising .ad ul li img{width: 100%;height: 100%;}
+#home-advertising .ad ul li.show{display: block;transition:all 3s ease-in;}
+#home-advertising .ad ul li:hover{transform: scale(1.02);transition:transform .2s ease-in;}
+#home-advertising .ad .ad-btn{position: absolute;display: flex;justify-content: space-between;width: 100%;top: 10em;}
+#home-advertising .ad .ad-btn button{background:rgb(21, 33, 44);border: none;height: 3em;width: 3em;opacity: .7;cursor: pointer;}
+#home-advertising .ad .ad-btn button:hover{background:rgb(20, 69, 114);}
+#home-advertising .ad .ad-btn button i{font-size: 1.5em;color: white;display: block;opacity:1;border-radius: .1em;margin:0 auto;}
+#home-advertising .ad .ad-btn button:last-child{transform:rotate(-180deg)}
+#home-advertising article{width: 28em;height: 24em;background:rgb(3, 32, 60,.7);padding: 2em;box-sizing: border-box;}
+#home-advertising article p{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 6; overflow: hidden;}
+#home-advertising article a{background:#fed631;padding: .75em;display: block;width: 100%;text-align: center;border-radius: .2em;box-sizing: border-box;color: var(--col);font-weight: 700;margin-top: 2em;}
+
+/* 产品列表 */
+#home-game-list .inner{flex-wrap: wrap;}
+#home-game-list article{display: flex;justify-content: space-between;align-items: center;width: 100%;margin-bottom: 2em;}
+#home-game-list article a{padding: .75em 3em;background: #2993fc;border-radius: .2em;}
+#home-game-list .game-list ul{display: flex;}
+#home-game-list .game-list ul li{flex: 1;box-sizing: border-box;}
+#home-game-list .game-list ul li a{display: block;width: 100%;border:1px solid  #344658;background:rgb(7, 13, 16,.9);overflow: hidden;}
+#home-game-list .game-list ul li .img{overflow: hidden;height: 11em;}
+#home-game-list .game-list ul li .img img{width: 100%;height: 100%;}
+#home-game-list .game-list ul li a:hover{background: var(--col);box-shadow: inset #fed631 0 -.25em;}
+#home-game-list .game-list ul li a:hover img{transform: scale(1.1);transition: .2s ease-in;}
+#home-game-list .game-list ul li h4{padding: 1em 1.5em .5em;font-weight: 700;}
+#home-game-list .game-list ul li .label{display: flex;justify-content: space-between;align-items: center; padding:0 1.5em 1em;opacity: .7;}
+#home-game-list .game-list ul li .label .offer::before{content: '\e50a';font-family: 'iconfont';font-size: 1.25em;color: white;font-weight: 600;padding-right:.2em;}
+#home-game-list .game-list ul li .label .seller::before{content: '\e60a';font-family: 'iconfont';font-size: 1.25em;color: white;padding-right:.25em;}
