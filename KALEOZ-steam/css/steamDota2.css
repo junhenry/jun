@@ -1,0 +1,48 @@
+
+/* 筛选 */
+#content .inner{flex-wrap: wrap;}
+#content .breadcrumb{width: 100%;}
+#content .breadcrumb ul{display: flex;width: 100%;}
+#content .breadcrumb ul li:last-child::before{content: '/';margin: 0 .5em;}
+#content .breadcrumb li a{opacity: .7;line-height: 2em;}
+#content .breadcrumb li a:hover{color: #fed631;opacity: 1;}
+
+#content .filter-wrap {width: 100%;background: rgb(15, 20, 30,.8);padding: 2em;}
+#content .filter-wrap .filter-menu{display: flex;flex-wrap: wrap;}
+#content .filter-wrap .filter-menu .filter-title{display: flex;justify-content: space-between;align-items: center; width: 100%;padding-bottom: 1.25em;}
+#content .filter-wrap .filter-menu .filter-title span{font-size: 1.25em;height: 2.5em;width: 2.5em;line-height: 2.5em;text-align: center;border-radius: .25em;cursor: pointer;}
+#content .filter-wrap .filter-menu.show .filter-title span{display: none;}
+#content .filter-wrap .filter-menu .filter-title span:hover{background: #202a3b;}
+#content .filter-wrap .filter-menu .heroes{display: none;}
+#content .filter-wrap .filter-menu .heroes::before{font-family: 'iconfont'; content: '\e64e';font-size: 1.25em;padding-right: .5em;}
+#content .filter-wrap .filter-menu.show .heroes{display: block;cursor: pointer;}
+
+#content .filter-wrap .filter-menu .filter-title .title{display: flex;align-items: center;height: 3em;}
+#content .filter-wrap .filter-menu .filter-title .title h6{padding: 0 1em;}
+#content .filter-wrap .filter-menu.on .filter-title .title::before{content: ''; display: block;width:5.333334em;height: 100%;background: url(../images/steam/data2_hero.jpg);background-position: calc(var(--x,0)*100%) calc(var(--y,0)*100%);background-size:  1000% auto;}
+#content .filter-wrap .filter-menu .filter-title .title i{display: none; font-size: 1em;opacity: .5;cursor: pointer;}
+#content .filter-wrap .filter-menu.on .filter-title .title i{display: inline-block;}
+#content .filter-wrap .filter-nav{display: flex;justify-content: space-between;border-top: 1px solid #202a3b;padding: 1em 0 2em;}
+#content .filter-wrap .filter-menu.show .filter-nav{display: none;}
+#content .filter-wrap .filter-strength-name{flex: 1;padding-right: 2em;}
+#content .filter-wrap .filter-strength-name .title{display: flex;align-items: center;margin: 1em 0;}
+#content .filter-wrap .filter-strength-name .title::before{content: '';display: block;width: 2em;height: 2em;overflow: hidden; border-radius: 50%; margin-right: 1em;background: url(../images/steam/data2_herotype.png) no-repeat;background-position:calc((var(--x) * 2em)) 0;background-size: auto 100%;}
+
+#content .filter-wrap .filter-strength-name:last-child{padding-right:0;}
+#content .filter-wrap .filter-strength-name ul{display: flex;flex-wrap: wrap;box-sizing: border-box;}
+#content .filter-wrap .filter-strength-name ul li{width: 4.5em;height: 2.75em;overflow: hidden;line-height: 10;border-radius: .25em;cursor: pointer;box-sizing: border-box;margin:.1em;}
+#content .filter-wrap .filter-strength-name ul li::before{content: '';display: block;width: 100%;padding-top: 56.25%;opacity: .8; background: url(../images/steam/data2_hero.jpg);background-position: calc(var(--x,0)*100%) calc(var(--y,0)*100%);background-size:  1000% auto;}
+#content .filter-wrap .filter-strength-name ul li:hover::before{transform: scale(1.2);}
+#content .filter-wrap .filter-strength-name ul li.selected{box-shadow:0 0 0 .2em #df081a;}
+
+/* Filter,search */
+#content .filter{border-top: 1px solid  #202a3b;padding:2em 0 0;}
+
+
+/* 产品列表 */
+
+#content .products .products-wrap ul li{max-width: 19em;height: 22em;}
+#content .products .products-wrap ul li img{background: url(../images/placeholder/item_cover_steam_csgo.svg) no-repeat center/cover;width: 100%;box-sizing: border-box;padding:.1em;}
+#content .products .products-wrap ul li article{padding: 1em 1.5em}
+
+
